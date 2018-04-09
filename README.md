@@ -1,2 +1,4 @@
 # commit-sudoku
-accepting pull requests to collectivly finish a sudoku puzzle
+
+## TODO:
+* Accept pull requests.
