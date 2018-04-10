@@ -114,9 +114,10 @@ A move must only inclued filling in one number in one cell in the puzzle.
 * Conflicting moves are skipped, they can be resubmited ASAP once fixed.
 * Multiple players can submit a single joint pull requests consistent of many commits.
 
-All other commits should improve the project in some way.
+All other pull requests should improve the project in some way. Explained with what changes are made, and how it makes the project better.
 
-* Other commits must not change the values in the puzzle. They should also preserve git blame as best as possible.
+* Other pull requests must not inclue move commits. They should also preserve git blame for moves as best as possible.
+* Acceptance does not follow the rule of moves.
 * They can be anything else typical of any project.
 * They can even change the rules, but not apply retroactivly.
 
