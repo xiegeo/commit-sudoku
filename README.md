@@ -106,13 +106,13 @@
 
 There are two types of pull requests, moves and others.
 
-A move must only inclued filling in one number in one cell in the puzzle.
+A move must only include filling in one number in one cell in the puzzle.
 
 * A player can only make at most one move, which is adding a number, a day.
-* A player can remove any move made by himself or herself without the above limitation.
-* Moves are accepted in order of first submition.
-* Conflicting moves are skipped, they can be resubmited ASAP once fixed.
-* Multiple players can submit a single joint pull requests consistent of many commits.
+* A player can remove any moves made by himself or herself without the above limitation.
+* Moves are accepted in order of first submission.
+* Conflicting moves are skipped, they can be resubmitted ASAP once fixed.
+* Multiple players can submit a single joint pull requests consistent of many moves, one from each player.
 
 All other pull requests should improve the project in some way. Explained with what changes are made, and how it makes the project better.
 
