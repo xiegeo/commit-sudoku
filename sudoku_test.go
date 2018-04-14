@@ -71,7 +71,7 @@ func nextNumber(r *bufio.Reader) (int, error) {
 	}
 	numbers := numberRegexp.FindAll(line, -1)
 	if len(numbers) > 1 {
-		return 0, errors.New("too many numbers")
+		return 0, errors.New("too many digits")
 	}
 	if len(numbers) == 1 {
 		return int(numbers[0][0] - '0'), nil
