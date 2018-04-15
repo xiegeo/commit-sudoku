@@ -108,7 +108,7 @@ There are two types of pull requests, moves and others.
 
 A move must only include filling in one number in one cell in the puzzle.
 
-* A player can only make at most one move, which is adding a number, a day.
+* A player can only make at most one move a day.
 * A player can remove any moves made by himself or herself without the above limitation.
 * Moves are accepted in order of first submission.
 * Conflicting moves are skipped, they can be resubmitted ASAP once fixed.
@@ -119,7 +119,12 @@ All other pull requests should improve the project in some way. Explained with w
 * Other pull requests must not inclue move commits. They should also preserve git blame for moves as best as possible.
 * Acceptance does not follow the rule of moves.
 * They can be anything else typical of any project.
-* They can even change the rules, but not apply retroactivly.
+* They can even change the rules, but not apply retroactively.
 
-## TODO:
-* Accept pull requests.
+
+## Testing
+
+There is CI integration to make pull requests more flashy.
+You can run the tests locally with `go test` if you have go installed. 
+You are also welcome to add redundant tests using other languages or improve existing ones.
+
