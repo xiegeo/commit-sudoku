@@ -4,13 +4,13 @@
 
 <!-- space reserved to line up cells with line numbers -->
 
-
+make a bad edit to show failed CI. Do not merge
 
 <table>
   <tr>
-    <td>1
-    <td>&nbsp;
-    <td>&nbsp;
+    <td>6
+    <td>6
+    <td>6
     <td>&nbsp;
     <td>9
     <td>&nbsp;
