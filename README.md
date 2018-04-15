@@ -1,10 +1,10 @@
 # commit-sudoku
 
+[![Build Status](https://travis-ci.org/xiegeo/commit-sudoku.svg?branch=master)](https://travis-ci.org/xiegeo/commit-sudoku)
+
 
 
 <!-- space reserved to line up cells with line numbers -->
-
-
 
 <table>
   <tr>
