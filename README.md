@@ -92,7 +92,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>2
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
