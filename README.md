@@ -32,7 +32,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>8
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
