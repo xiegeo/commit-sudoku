@@ -29,6 +29,7 @@ func TestSudoku(t *testing.T) {
 	r := bufio.NewReader(f)
 	skipLines(r, 10)
 	var rs, cs, bs [9]Used
+	var count int
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
 			t.Run(fmt.Sprintf("line %v%v", i+1, j+1), func(t *testing.T) {
@@ -39,6 +40,7 @@ func TestSudoku(t *testing.T) {
 				if n == 0 {
 					return
 				}
+				count++
 				err = rs[i].Add(n)
 				if err != nil {
 					t.Fatal(err)
@@ -56,6 +58,7 @@ func TestSudoku(t *testing.T) {
 		}
 		skipLines(r, 1)
 	}
+	t.Logf("%v out of 81 numbers filled", count)
 }
 
 var numberRegexp = regexp.MustCompile(`[1-9]`)
