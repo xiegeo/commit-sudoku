@@ -116,7 +116,7 @@ A move must only include filling in one number in one cell in the puzzle.
 
 All other pull requests should improve the project in some way. Explained with what changes are made, and how it makes the project better.
 
-* Other pull requests must not inclue move commits. They should also preserve git blame for moves as best as possible.
+* Other pull requests must not include move commits. They should also preserve git blame for moves as best as possible.
 * Acceptance does not follow the rule of moves.
 * They can be anything else typical of any project.
 * They can even change the rules, but not apply retroactively.
