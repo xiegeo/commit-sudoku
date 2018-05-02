@@ -38,7 +38,7 @@
     <td>&nbsp;
     <td>&nbsp;
   <tr>
-    <td>&nbsp;
+    <td>7
     <td>4
     <td>&nbsp;
     <td>&nbsp;
