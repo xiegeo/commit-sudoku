@@ -91,7 +91,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>4
     <td>2
     <td>&nbsp;
     <td>9
