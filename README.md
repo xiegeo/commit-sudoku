@@ -7,7 +7,7 @@
 <!-- space reserved to line up cells with line numbers -->
 
 <table>
-  <tr>
+  <tr>            <!-- Row 1 -->
     <td>1
     <td>&nbsp;
     <td>&nbsp;
@@ -17,7 +17,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>4
-  <tr>
+  <tr>            <!-- Row 2 -->
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
@@ -27,7 +27,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 3 -->
     <td>4
     <td>&nbsp;
     <td>&nbsp;
@@ -37,7 +37,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 4 -->
     <td>7
     <td>4
     <td>&nbsp;
@@ -47,7 +47,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 5 -->
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
@@ -57,7 +57,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 6 -->
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
@@ -67,7 +67,7 @@
     <td>4
     <td>&nbsp;
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 7 -->
     <td>&nbsp;
     <td>&nbsp;
     <td>4
@@ -77,7 +77,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 8 -->
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
@@ -87,7 +87,7 @@
     <td>7
     <td>4
     <td>&nbsp;
-  <tr>
+  <tr>            <!-- Row 9 -->
     <td>5
     <td>7
     <td>&nbsp;
