@@ -9,7 +9,7 @@
 <table>
   <tr>            <!-- Row 1 -->
     <td>1
-    <td>&nbsp;
+    <td>1
     <td>7
     <td>&nbsp;
     <td>9
