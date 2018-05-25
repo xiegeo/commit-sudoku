@@ -29,7 +29,7 @@
     <td>&nbsp;
   <tr>            <!-- Row 3 -->
     <td>4
-    <td>&nbsp;
+    <td>3
     <td>&nbsp;
     <td>&nbsp;
     <td>8
