@@ -95,7 +95,7 @@
     <td>2
     <td>1
     <td>9
-    <td>&nbsp;
+    <td>8
     <td>6
 </table>
 
