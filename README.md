@@ -96,7 +96,7 @@
     <td>1
     <td>9
     <td>&nbsp;
-    <td>&nbsp;
+    <td>6
 </table>
 
 
