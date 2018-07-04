@@ -15,7 +15,7 @@
     <td>9
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>3
     <td>4
   <tr>            <!-- Row 2 -->
     <td>&nbsp;
