@@ -121,10 +121,14 @@ All other pull requests should improve the project in some way. Explained with w
 * They can be anything else typical of any project.
 * They can even change the rules, but not apply retroactively.
 
+## Evolution
+
+![Evolution of the board](https://commit-sudoku.surge.sh/output.gif)
+
+More details [here](animation/README.md).
 
 ## Testing
 
 There is CI integration to make pull requests more flashy.
-You can run the tests locally with `go test` if you have go installed. 
+You can run the tests locally with `go test` if you have go installed.
 You are also welcome to add redundant tests using other languages or improve existing ones.
-
