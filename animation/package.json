@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "generate": "node ./index.js"
+  },
+  "dependencies": {
+    "gifencoder": "^1.1.0",
+    "png-file-stream": "^1.0.0",
+    "progress": "^2.0.0",
+    "puppeteer": "^1.5.0",
+    "surge": "^0.20.1",
+    "tempdir": "^2.0.0"
+  }
+}
