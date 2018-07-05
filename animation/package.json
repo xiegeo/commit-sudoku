@@ -1,8 +1,13 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiegeo/commit-sudoku.git"
+  },
   "scripts": {
-    "generate": "node ./index.js"
+    "generate": "node ./index.js && camo-purge"
   },
   "dependencies": {
+    "camo-purge": "^1.0.2",
     "gifencoder": "^1.1.0",
     "png-file-stream": "^1.0.0",
     "progress": "^2.0.0",
