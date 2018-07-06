@@ -13,7 +13,7 @@
     <td>7
     <td>2
     <td>9
-    <td>&nbsp;
+    <td>6
     <td>8
     <td>3
     <td>4
