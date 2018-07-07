@@ -21,7 +21,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>3
     <td>4
     <td>5
     <td>&nbsp;
