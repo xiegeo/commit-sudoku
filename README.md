@@ -20,7 +20,7 @@
   <tr>            <!-- Row 2 -->
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>2
     <td>3
     <td>4
     <td>5
