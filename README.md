@@ -30,7 +30,7 @@
   <tr>            <!-- Row 3 -->
     <td>4
     <td>3
-    <td>&nbsp;
+    <td>6
     <td>1
     <td>8
     <td>7
