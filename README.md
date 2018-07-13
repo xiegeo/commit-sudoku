@@ -19,7 +19,7 @@
     <td>4
   <tr>            <!-- Row 2 -->
     <td>&nbsp;
-    <td>&nbsp;
+    <td>9
     <td>2
     <td>3
     <td>4
