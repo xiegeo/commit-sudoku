@@ -4,4 +4,4 @@ go:
   - "1.x"
 
 after_success:
-  - if [ "$TRAVIS_BRANCH" == "master" ]; then cd animation && npm install && npm run generate; fi
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then cd animation && npm install && npm run generate; fi
