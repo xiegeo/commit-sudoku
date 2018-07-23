@@ -16,7 +16,7 @@ process.on('unhandledRejection', e => { throw e; });
 })();
 
 async function main() {
-  const commitSHAs = execSync('git log --reverse --format=format:%H').toString().split('\n');
+  const commitSHAs = execSync('git log --reverse --no-merges --format=format:%H').toString().split('\n');
   console.log(`Found ${commitSHAs.length} commits.`);
 
   const browser = await puppeteer.launch({
