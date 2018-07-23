@@ -51,7 +51,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
-    <td>&nbsp;
+    <td>7
     <td>&nbsp;
     <td>4
     <td>&nbsp;
