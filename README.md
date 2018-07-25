@@ -26,7 +26,7 @@
     <td>5
     <td>6
     <td>&nbsp;
-    <td>&nbsp;
+    <td>7
   <tr>            <!-- Row 3 -->
     <td>4
     <td>3
