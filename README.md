@@ -68,7 +68,7 @@
     <td>7
     <td>&nbsp;
   <tr>            <!-- Row 7 -->
-    <td>&nbsp;
+    <td>6
     <td>&nbsp;
     <td>4
     <td>&nbsp;
