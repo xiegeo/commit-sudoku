@@ -52,7 +52,7 @@
     <td>&nbsp;
     <td>&nbsp;
     <td>7
-    <td>&nbsp;
+    <td>3
     <td>4
     <td>&nbsp;
     <td>6
