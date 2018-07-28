@@ -80,7 +80,7 @@
   <tr>            <!-- Row 8 -->
     <td>2
     <td>1
-    <td>&nbsp;
+    <td>9
     <td>&nbsp;
     <td>&nbsp;
     <td>&nbsp;
