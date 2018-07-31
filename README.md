@@ -82,7 +82,7 @@
     <td>1
     <td>9
     <td>5
-    <td>&nbsp;
+    <td>6
     <td>8
     <td>7
     <td>4
