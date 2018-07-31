@@ -8,5 +8,9 @@ go:
 git:
   depth: false
 
+cache:
+  directories:
+  - animation/node_modules # npm packages
+
 after_success:
   - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then cd animation && npm install && npm run generate; fi
