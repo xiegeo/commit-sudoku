@@ -3,5 +3,10 @@ language: go
 go:
   - "1.x"
 
+## Disable "git --depth" for complete animation
+## See: https://docs.travis-ci.com/user/customizing-the-build/#git-clone-depth
+git:
+  depth: false
+
 after_success:
   - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then cd animation && npm install && npm run generate; fi
