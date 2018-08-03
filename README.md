@@ -41,7 +41,7 @@
     <td>7
     <td>4
     <td>1
-    <td>&nbsp;
+    <td>6
     <td>5
     <td>&nbsp;
     <td>3
