@@ -113,6 +113,7 @@ A move must only include filling in one number in one cell in the puzzle.
 * Moves are accepted in order of first submission.
 * Conflicting moves are skipped, they can be resubmitted ASAP once fixed.
 * Multiple players can submit a single joint pull requests consistent of many moves, one from each player.
+* If and only if no legal move may be played, a player may submit a PR to remove 1 number from the board. Removal of this number must enable additional moves to be played past the impasse it resolves. Removal of a number counts as a daily move.
 
 All other pull requests should improve the project in some way. Explained with what changes are made, and how it makes the project better.
 
