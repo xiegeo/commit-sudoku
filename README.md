@@ -50,7 +50,7 @@
   <tr>            <!-- Row 5 -->
     <td>9
     <td>2
-    <td>&nbsp;
+    <td>8
     <td>7
     <td>3
     <td>4
