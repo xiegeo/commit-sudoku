@@ -54,17 +54,17 @@ async function main() {
 
   const outputdir = await makeTempdir();
   const outputGIF = `${outputdir}/output.gif`;
-  await pngFileStream(`${tempdir}/T*.png`)
+  pngFileStream(`${tempdir}/T*.png`)
     .pipe(encoder.createWriteStream({ repeat: 0, delay: 200, quality: 50 }))
-    .pipe(fs.createWriteStream(outputGIF));
-  console.log(`Created session GIF: ${outputGIF}`);
-  await delay(5000);
-  execSync(`ls -lhta ${outputdir}`, { stdio: [0, 1, 2] });
-
-  if (process.env.CI && process.env.SURGE_LOGIN && process.env.SURGE_TOKEN) {
-    console.log('Uploading GIF to: http://commit-sudoku.surge.sh/output.gif');
-    execSync(`SURGE_TOKEN=${process.env.SURGE_TOKEN} npx surge ${outputdir} commit-sudoku.surge.sh`, { stdio: [0, 1, 2] });
-  }
+    .pipe(fs.createWriteStream(outputGIF))
+    .on('close',()=>{
+      console.log(`Created session GIF: ${outputGIF}`);
+      execSync(`ls -lhta ${outputdir}`, { stdio: [0, 1, 2] });
+      if (process.env.CI && process.env.SURGE_LOGIN && process.env.SURGE_TOKEN) {
+        console.log('Uploading GIF to: http://commit-sudoku.surge.sh/output.gif');
+        execSync(`SURGE_TOKEN=${process.env.SURGE_TOKEN} npx surge ${outputdir} commit-sudoku.surge.sh`, { stdio: [0, 1, 2] });
+      }
+    });
 }
 
 function getTableStateForCommit(commitSHA) {
