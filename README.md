@@ -45,7 +45,7 @@
     <td>5
     <td>&nbsp;
     <td>3
-    <td>&nbsp;
+    <td>9
     <td>8
   <tr>            <!-- Row 5 -->
     <td>9
