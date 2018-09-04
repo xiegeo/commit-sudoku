@@ -43,7 +43,7 @@
     <td>1
     <td>6
     <td>5
-    <td>&nbsp;
+    <td>2
     <td>3
     <td>9
     <td>8
