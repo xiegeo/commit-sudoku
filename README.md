@@ -1,6 +1,7 @@
 # commit-sudoku
 
 [![Build Status](https://travis-ci.org/xiegeo/commit-sudoku.svg?branch=master)](https://travis-ci.org/xiegeo/commit-sudoku)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fxiegeo%2Fcommit-sudoku.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fxiegeo%2Fcommit-sudoku?ref=badge_shield)
 
 
 
@@ -132,3 +133,7 @@ More details [here](animation/README.md).
 There is CI integration to make pull requests more flashy.
 You can run the tests locally with `go test` if you have go installed.
 You are also welcome to add redundant tests using other languages or improve existing ones.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fxiegeo%2Fcommit-sudoku.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fxiegeo%2Fcommit-sudoku?ref=badge_large)
